@@ -119,6 +119,9 @@ header {
 .hero {
   background: var(--title-bcg-color);
   text-align: center;
+  background-image: linear-gradient(to right, rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url(../img/people_office.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   margin-top: 0;
@@ -225,6 +228,9 @@ header {
   margin-right: 0;
 }
 
+.feature-list .title {
+  margin-top: 8px;
+}
 .examples-list {
   display: flex;
   flex-wrap: wrap;
@@ -331,6 +337,7 @@ header {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   border-top: none;
 }
+
 .work-item:hover,
 .work-item:focus {
   border: 0.5px solid var(--main-color);
