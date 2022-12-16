@@ -348,9 +348,7 @@ header {
   font-weight: 600;
   color: var(--main-color);
 }
-.footer .social-list {
-  gap: 16px;
-}
+
 .footer .social-list-link {
   fill: var(--light-color);
   background-color: rgba(255, 255, 255, 0.1);
